@@ -18,3 +18,8 @@ while not isValidInput:
         renameFiles(dirName)
     else:
         print("Not a valid directory name")
+
+
+# os.rename(dirName + "/" + fileName, dirName + "/" + fileName.replace("(BookZZ.org)", ""))
+# os.rename(dirName + "/" + fileName, dirName + "/" + fileName.replace("(z-lib.org)", ""))
+# os.rename(dirName + "/" + fileName, dirName + "/" + fileName.replace("(BookFi)", ""))
